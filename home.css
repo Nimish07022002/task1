@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+script {
+  display: none;
+}
+
+
+footer {
+  /* margin-top: 30vh; */
+  padding-top: 30px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+#feedback-form {
+  /* background-image: url(images/form-texture.jpeg); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  /* border: 2px solid black; */
+  border-radius: 1.5rem;
+  padding: 3%;
+  margin: 3% 0%;
+  font-size: 20px;
+}
+
+#email,
+#name {
+  height: 33px;
+  font-size: 17px;
+  width: 40%;
+  margin-left: 13px;
+}
+
+#feedback {
+  font-size: 17px;
+  width: 40%;
+  height: 150px;
+}
+
+#submitDetails {
+  background-color: rgb(3 60 115);
+  color: white;
+  width: 21%;
+  font-size: 21px;
+  border-radius: .65rem;
+  margin-left: 41%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  padding: 8px 0;
+
+}
+
+#review {
+  float: left;
+  margin: 0 -337px 0 338px;
+}
+
+/* ********************************************************************************************************* */
+
+
+/* ********************************************  max-width:912px  ****************************************** */
+
+
+@media(max-width:912px) {
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .registerbtn {
+    width: 41%;
+  }
+}
+
+
+/* ********************************************************************************************************* */
+
+
+/* ********************************************  max-width:558px  ****************************************** */
+
+
+@media(max-width:558px) {
+  #copyright {
+    font-size: 2.4vw;
+  }
+}
+
+/* ********************************************************************************************************* */
+
+
+/* ********************************************  max-width:446px  ****************************************** */
+
+
+@media(max-width:446px) {
+  
+
+  #feedback-form,
+  #feedback {
+    font-size: 9px;
+  }
+
+  #email,
+  #name {
+    height: 20px;
+    font-size: 9px;
+  }
+
+  #submitDetails {
+    width: 24%;
+    font-size: 9px;
+    padding: 3px 0;
+  }
+
+  .rating {
+    width: 3%;
+  }
+
+  #rating {
+    margin-top: 3px;
+  }
+
+  #review {
+    float: none;
+    margin: 0px 32vw 0 9px;
+  }
+
+  #feedback-form {
+    width: 50%;
+  }
+
+  #feedback {
+    margin: -9% -45px 0 0;
+    height: 50px;
+  }
+
+  .registerbtn {
+    width: 51%;
+    font-size: 8px;
+    padding: 6px 0;
+    margin: 0 0 0 27%;
+  }
+
+  .container,
+  input[type="text"],
+  textarea {
+    font-size: 7px;
+  }
+
+  input[type="text"],
+  textarea {
+    padding: 0;
+  }
+
+  input[type="date"] {
+    font-size: 6px;
+    height: 6px;
+  }
+
+  input[type="radio"] {
+    width: 2%;
+  }
+
+  hr {
+    width: 73%;
+    margin-top: -8px;
+  }
+
+  th,
+  td {
+    font-size: 9px !important;
+    padding: 0 !important;
+  }
+
+  table button {
+    width: 1.2rem;
+    font-size: 12px;
+    text-align: c;
+    font-weight: 600;
+    margin: 4px -1% 0 0.1%;
+  }
+
+  tr button {
+    width: 1.6rem !important;
+
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    margin: 7px -8% 0 5.5% !important;
+  }
+
+  #total {
+    width: 64%;
+    font-size: 12px;
+  }
+
+  #confirm {
+    width: 26% !important;
+    font-size: 12px !important;
+  }
+}
+
+/* ********************************************************************************************************* */
+/*
+ */
